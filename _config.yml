@@ -6,7 +6,6 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "README_en.md", "Rakefile", "
 highlighter: rouge
 
 #### Permalink
-permalink:     /blog/:title/
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: pretty
 
@@ -44,7 +43,7 @@ menu:
   
   About Me: /about
   Fun: /fun
-  #Blog: /
+  Blog: /
   Archives: /archives
  
 ## you can create `tags` and `categories` folders (I had created them already).
