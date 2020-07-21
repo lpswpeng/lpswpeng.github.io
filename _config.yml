@@ -56,7 +56,7 @@ menu:
 #### Widgets
 widgets:
 - recent_posts
-- category
+#- category
 #- tag
 #- tagcloud
 #- links
