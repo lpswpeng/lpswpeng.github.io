@@ -28,7 +28,7 @@ defaults:
 paginate: 20
 
 #### Site
-title :                                         Wei PENG
+title : Wei PENG
 tagline: A fresh looking 
 assets: /assets
 url: https://lpswpeng.github.io
@@ -58,7 +58,7 @@ widgets:
 - recent_posts
 #- category
 - tag
-- tagcloud
+#- tagcloud
 #- links
 #- douban
 #- github-card
