@@ -55,9 +55,9 @@ menu:
 
 #### Widgets
 widgets:
-- recent_posts
-#- category
-- tag
+#- recent_posts
+- category
+#- tag
 #- tagcloud
 #- links
 #- douban
