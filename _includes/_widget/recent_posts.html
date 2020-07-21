@@ -5,7 +5,7 @@
     <ul>
         {% for post in site.posts limit:5 %}
           <li>
-           <a href="{{ BASE_PATH }}/Recent Posts/#{{ post.url }}">{{ post.title }}</a>
+           <a href="{{ site.baseurl }}/Recent Posts/#{{ post.url }}">{{ post.title }}</a>
           </li>
         {% endfor %}
     </ul>
