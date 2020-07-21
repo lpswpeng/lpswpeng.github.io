@@ -13,11 +13,9 @@ font-family:"Helvetica Neue","Helvetica","Microsoft YaHei","WenQuanYi Micro Hei"
 
 /* archive layout */
 .category-icon:before,
-.recent_posts-icon:before,
 .tag-icon:before,
 .archive-icon:before, {font-family:"FontAwesome";-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;color:#ccc;font-size:100%;padding-right:.3em}
 .category-icon:before{content:"\f07b"}
-.recent_posts-icon:before{content:"\f07b"}
 .tag-icon:before{content:"\f02c"}
 .archive-icon:before{content:"\f187"}
 .archive-title{margin:1em 0;padding:2em;background:#fafafa;border-left:.5em solid #ccc;}@media only screen and (min-width:1024px){.archive-title{margin:2em 0;width:18.5%;padding-left:.5%;float:left}}
@@ -31,8 +29,8 @@ font-family:"Helvetica Neue","Helvetica","Microsoft YaHei","WenQuanYi Micro Hei"
 
 /* tags&categories layout */
 .all-list-box{min-height:400px}.post,.page,.link,.photo, .recent_posts{background:#fafafa;}
-.post a,.page a,.link a,.photo a{color:#2ca6cb;}#2ca6cb
-.post a:hover,.page a:hover,.link a:hover,.photo a:hover{color:#ea6753}@media only screen and (min-width:768px){article header.article-info{border-bottom:1px solid #dbdbdb}}article header
+.post a,.page a,.link a,.photo a, .recent_posts a{color:#2ca6cb;}#2ca6cb
+.post a:hover,.page a:hover,.link a:hover,.photo a:hover,.recent_posts a{color:#ea6753}@media only screen and (min-width:768px){article header.article-info{border-bottom:1px solid #dbdbdb}}article header
 .article-info >h1{padding:.2em 3%;font-size:170%;line-height:1.5;word-wrap:break-word;word-break:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;border-left:5px solid #2ca6cb}@media only screen and (min-width:1024px){article header.article-info >h1{font-size:200%;padding-top:.3em}}article header
 .article-info >p.article-author{padding:.3em 4% .3em 0;text-align:right;border-bottom:1px solid #dbdbdb;}@media only screen and (min-width:768px){article header.article-info >p.article-author{float:right;border-bottom:none}}article header
 .article-info >p.article-time{padding-top:.5em;font-size:.8em;text-align:center;margin-bottom:-2.7em;}@media only screen and (min-width:768px){article header.article-info >p.article-time{float:right;margin-right:1em;padding-top:.1em;font-size:.9em}}article header
