@@ -28,7 +28,7 @@ defaults:
 paginate: 20
 
 #### Site
-title :                                         Wei PENG
+title : Wei PENG
 tagline: A fresh looking 
 assets: /assets
 url: https://lpswpeng.github.io
@@ -55,10 +55,10 @@ menu:
 
 #### Widgets
 widgets:
-- recent_posts
-#- category
+#- recent_posts
+- category
 - tag
-- tagcloud
+#- tagcloud
 #- links
 #- douban
 #- github-card
@@ -106,10 +106,22 @@ author:
   #stackoverflow:  ## e.g. 3222790 for http://stackoverflow.com/users/3222790/jark
 ## if you set them, the corresponding  share button will show on the footer
 
+links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/"
+   
+      
 #### Toc
 toc:
   article: true   ## show contents in article.
-  aside: true     ## show contents in aside.
+  aside: false     ## show contents in aside.
 ## you can set both of the value to true of neither of them.
 ## if you don't want display contents in a specified post,you can modify `front-matter` and add `toc: false`.
 
