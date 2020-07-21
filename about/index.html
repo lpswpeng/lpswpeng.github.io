@@ -1,0 +1,9 @@
+---
+layout: page
+type: page
+title: About me
+---
+
+{% capture md %}{% include_relative about.md %}{% endcapture %}
+
+{{ md | markdownify }}

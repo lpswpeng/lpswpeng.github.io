@@ -1,0 +1,9 @@
+---
+layout: page
+type: page
+title: Fun
+---
+
+{% capture md %}{% include_relative fun.md %}{% endcapture %}
+
+{{ md | markdownify }}

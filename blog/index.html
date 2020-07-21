@@ -1,0 +1,20 @@
+---
+layout: page
+title: Blog
+description: My blog 
+---
+
+<section class="blog">
+
+    <ul class="post-list">
+      {% for post in site.posts %}
+        <li class="post-container"> 
+
+          <p> <span><i>{{ post.date | date: "%-d %b, %Y" }}</i></span> — <a class="post-link" href="{{ post.permalink | prepend: site.baseurl }}">{{ post.title }}</a> — {{ post.content | strip_html | truncatewords: 40  }} <a href="{{ post.permalink | prepend: site.baseurl }}"> Read more... </a> </p>
+
+        </li>
+      {% endfor %}
+    </ul>
+
+
+</section>
