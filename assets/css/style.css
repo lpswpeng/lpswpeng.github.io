@@ -1,11 +1,21 @@
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-family:inherit;font-size:100%;vertical-align:baseline}body{line-height:1;color:#000;background:#fff}ol,ul{list-style:none}table{border-collapse:separate;border-spacing:0;vertical-align:middle}caption,th,
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,
+strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;
+outline:0;font-weight:inherit;font-style:inherit;font-family:inherit;font-size:100%;vertical-align:baseline}
+body{line-height:1;color:#000;background:#fff}ol,
+ul{list-style:none}table{border-collapse:separate;border-spacing:0;vertical-align:middle}caption,th,
 td{text-align:middle;font-weight:normal;vertical-align:middle}a img{border:none}
 
 /* custom Font*/
-@font-face{font-family:"covered_by_your_graceregular";font-weight:normal;font-style:normal;src:url("../font/coveredbyyourgrace-webfont.eot");src:url("../font/coveredbyyourgrace-webfont.eot?#iefix") format('embedded-opentype'),url("../font/coveredbyyourgrace-webfont.svg#covered_by_your_graceregular") format('svg'),url("../font/coveredbyyourgrace-webfont.woff") format('woff'),url("../font/coveredbyyourgrace-webfont.ttf") format('truetype')}
+@font-face{font-family:"covered_by_your_graceregular";font-weight:normal;font-style:normal;
+src:url("../font/coveredbyyourgrace-webfont.eot");
+src:url("../font/coveredbyyourgrace-webfont.eot?#iefix") format('embedded-opentype'),
+url("../font/coveredbyyourgrace-webfont.svg#covered_by_your_graceregular") format('svg'),
+url("../font/coveredbyyourgrace-webfont.woff") format('woff'),
+url("../font/coveredbyyourgrace-webfont.ttf") format('truetype')}
 
 /* icon Font */
-@font-face{font-family:"FontAwesome";font-style:normal;font-weight:normal;src:url("../font/fontawesome-webfont.eot?v=#4.0.3");
+@font-face{font-family:"FontAwesome";font-style:normal;font-weight:normal;
+src:url("../font/fontawesome-webfont.eot?v=#4.0.3");
 src:url("../font/fontawesome-webfont.eot?#iefix&v=#4.0.3") format("embedded-opentype"),
 url("../font/fontawesome-webfont.woff?v=#4.0.3") format("woff"),
 url("../font/fontawesome-webfont.ttf?v=#4.0.3") format("truetype"),
@@ -18,7 +28,8 @@ url("../font/fontdiao.ttf") format('truetype')}
 /* Public style */
 *{-webkit-margin-before:0;-webkit-margin-after:0}body{background:#ddd;font-family:"Helvetica Neue","Helvetica","Microsoft YaHei","WenQuanYi Micro Hei",Arial,sans-serif;
 font-size:100%;color:#817c7c;line-height:1.5}iframe{margin-top:10px}small{font-size:80%}sub,
-sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em;padding-left:.3em}sub{bottom:-.25em}a{text-decoration:none;color:#817c7c;}a:hover,a:focus{outline:0;text-decoration:none;
+sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em;padding-left:.3em}sub{bottom:-.25em}a{text-decoration:none;color:#817c7c;}a:hover,
+a:focus{outline:0;text-decoration:none;
 -webkit-transition:color 0.25s, background 0.5s;-moz-transition:color 0.25s, background 0.5s;-o-transition:color 0.25s, background 0.5s;
 -ms-transition:color 0.25s, background 0.5s;transition:color 0.25s, background 0.5s}a:hover:before{-webkit-transition:color 0.25s, background 0.5s;-moz-transition:color 0.25s, background 0.5s;-o-transition:color 0.25s, background 0.5s;-ms-transition:color 0.25s, background 0.5s;transition:color 0.25s, background 0.5s}input:focus{outline:none}input,
 button{margin:0;padding:0;}input::-moz-focus-inner,button::-moz-focus-inner{border:0;padding:0}h1{font-size:1.5em}.fa{display:inline-block;font-family:FontAwesome;font-style:normal;font-weight:normal;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
