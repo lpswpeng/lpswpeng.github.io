@@ -56,10 +56,9 @@ menu:
 #### Widgets
 widgets:
 - recent_posts
-#- archives
-- category
+#- category
 - tag
-#- tagcloud
+- tagcloud
 #- links
 #- douban
 #- github-card
