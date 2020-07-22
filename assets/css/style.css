@@ -74,7 +74,7 @@ a:hover{background:#ccc;color:#2ca6cb}#page-nav
 .space{color:#2ca6cb}
 
 /* page layout */
-@media only screen and (min-width:1024px){.page{margin-left:100% !important}}
+@media only screen and (min-width:1024px){.page{margin-left:10% !important}}
 
 /* archive layout */
 .category-icon:before,
