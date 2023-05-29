@@ -1,16 +1,16 @@
 ---
 layout: page
 title: About
-description: 打码改变世界
-keywords: Zhuang Ma, 马壮
+description: 生活即是艺术
+keywords: 碎碎念, Wei
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-我是马壮，码而生，码而立。
+我是。。。。
 
-仰慕「优雅编码的艺术」。
+行万里路，读万卷书。
 
 坚信熟能生巧，努力改变人生。
 
