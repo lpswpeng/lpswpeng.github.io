@@ -4,10 +4,10 @@
 baseurl:
 url: https://weipeng.co
 date_format: "ordinal"
-title: 码志
-subtitle: "公众号：闷骚的程序员"
-description: "马壮的个人博客，公众号：闷骚的程序员"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang, 闷骚的程序员
+title: My Blog My Life
+#subtitle: "公众号：闷骚的程序员"
+description: "PengWei的个人博客"
+keywords: 生活, Wei, 碎碎念
 timezone: Asia/Shanghai
 encoding: "utf-8"
 # 页面左下角显示的年份
