@@ -27,7 +27,7 @@
     {% endif %}
     <!-- Latest compiled and minified CSS -->
     {% for css in page.css %}
-    <link rel="stylesheet" href="/assets/css/{{css}}">
+    <link rel="stylesheet" href="{{ assets_base_url }}/assets/css/{{css}}">
     {% endfor %}
 
     {% if site.ios_app_name %}
@@ -35,7 +35,7 @@
        <meta name="apple-mobile-web-app-status-bar-style" content="black">
     {% endif %}
     <link rel="canonical" href="{{ page.url | prepend: site.url }}">
-    <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.url }}{{ site.subscribe_rss }}">
+    #<link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.url }}{{ site.subscribe_rss }}">
     <link rel="shortcut icon" href="{{ assets_base_url }}/favicon.ico">
     {% if page.title %}
     <meta property="og:title" content="{{ page.title }}">
