@@ -102,6 +102,11 @@ navs:
   -
     href: /about/
     label: 关于
+    
+# ---------------- #
+#       RSS        #
+# ---------------- #
+#subscribe_rss: /feed.xml
 
 
 # ---------------- #
