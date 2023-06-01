@@ -6,9 +6,9 @@
  # name: mzlogin
   #url: http://gold.xitu.io/user/570ddaeb2e958a005c63b2da
 
-- sitename: LinkedIn
-  name: WeiPeng
-  url: https://www.linkedin.com/in/wei-peng-10a53a142/
+#- sitename: LinkedIn
+ # name: WeiPeng
+  #url: https://www.linkedin.com/in/wei-peng-10a53a142/
 
 - sitename: 博客
   name: Wei
@@ -25,3 +25,8 @@
 - sitename: 豆瓣
   name: vv
   url: http://www.douban.com/people/37388923
+
+- sitename: Email
+  name: lpswpeng
+  url: <a href="mailto:lpswpeng@gmail.com">contact us</a>
+
