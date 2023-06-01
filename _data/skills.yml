@@ -1,19 +1,11 @@
-- name: Software Engineer Keywords
+- name: Work
   keywords:
-      - Java
-      - C++
-      - Python
-      - Design Patterns
+      - 大学打工
+      - 烧陶瓷
 
-- name: Mobile Developer Keywords
+- name: 近期运动
   keywords:
-      - Android
-      - Reverse Engineering
-
-- name: Windows Developer Keywords
-  keywords:
-      - Win32 SDK
-      - DuiLib
-      - WTL
-      - COM
-      - WinDbg
+      - 羽毛球
+      - 囫囵健身
+      - 初级游泳
+      - 入门级拳击
