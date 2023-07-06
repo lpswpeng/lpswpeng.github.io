@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 观影：一次别离
-categories: Blog, Movie
+categories: Movie
 description: 看电影一次别离，小感触。
 keywords: 观影随笔，吐槽
 ---
