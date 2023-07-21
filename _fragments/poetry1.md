@@ -1,7 +1,7 @@
 ---
 layout: fragment
 title: 诗歌1
-tags: 诗歌
+tags: Poetry
 description: 豪迈的诗歌
 keywords: 狂
 ---
